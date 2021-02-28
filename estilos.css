@@ -1,0 +1,236 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: white;
+}
+
+#container{
+	width: 70%;
+	border: 1px solid black;
+	margin:  auto;
+	min-height: 600px;
+}
+
+header{
+	height: 100px;
+	width: 100%;
+	line-height: 100px;
+	text-align: center;
+	background: #007cba;
+	color: white;
+	margin: 0px;
+}
+
+a{
+	color: black;
+}
+
+.divider{
+	clear: both;
+}
+#articles{
+	width: 70%;
+	min-height: 400px;
+	float: left;
+	background: white;
+}
+aside{
+	float: right;
+	background: #6395ED;
+	min-height: 400px;
+	width: 30%;
+}
+footer{
+	line-height: 50px;
+	background: #007cba;
+	text-align: center;
+	
+}
+/*Barra * estilos de la barra de navegacion*/
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+/*Estilos de la tabla de estudios*/
+
+.tftable {
+  font-size:12px;
+  color:#333333;
+  width:100%;
+  border-width: 1px;
+  border-color: #729ea5;
+  border-collapse: collapse;
+}
+.tftable th {
+  font-size:12px;
+  background-color:#acc8cc;
+  border-width: 1px;padding: 8px;
+  border-style: solid;
+  border-color: #729ea5;
+  text-align:left;}
+.tftable tr {
+  background-color:#ffffff;
+}
+.tftable td {
+  font-size:12px;
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #729ea5;
+}
+.tftable tr:hover {
+  background-color:#ffff99;
+}
+/*Estilos de proyectos*/
+.proyectos
+{
+  background: #3399ff;
+  padding: 20px;
+}
+.proyectos{
+  background: #cce5ff;
+  margin: 5px;
+}
+/*Estilo de pasatiempos*/
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*Contactos*/
+
+* {
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
